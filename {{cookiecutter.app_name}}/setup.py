@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='my-app',
-    version='0.1',
+    name='{{cookiecutter.app_name}}',
+    version='{{cookiecutter.version}}',
     packages=find_packages(exclude=['tests']),
     install_requires=[
         'pylint',

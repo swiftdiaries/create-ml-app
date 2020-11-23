@@ -1,4 +1,6 @@
-# create-ml-app
+======================
+create-ml-app
+======================
 
 `create-ml-app` makes it easier to spin up a machine learning project locally in Python and handle various package dependencies. The name is inspired by [`create-react-app`](https://github.com/facebook/create-react-app). 
 
@@ -26,6 +28,7 @@ If you want to use any Python package in your project, simply add the package na
 
 ## Usage
 
-    git clone https://github.com/shreyashankar/create-ml-app.git my-ml-app
-    cd my-ml-app
-    make run
+    pip install -U cookiecutter
+    cookiecutter https://github.com/swiftdiaries/create-ml-app.git
+    # cd into app
+    # make run
