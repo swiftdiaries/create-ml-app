@@ -1,6 +1,5 @@
-======================
 create-ml-app
-======================
+=============
 
 `create-ml-app` makes it easier to spin up a machine learning project locally in Python and handle various package dependencies. The name is inspired by [`create-react-app`](https://github.com/facebook/create-react-app). 
 
