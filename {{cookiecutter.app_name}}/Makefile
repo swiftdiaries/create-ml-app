@@ -5,11 +5,11 @@ VENV_NAME:=venv
 PYTHON=${VENV_NAME}/bin/python3
 
 # Include your variables here
-RANDOM_SEED:=42
-NUM_EPOCHS:=15
-INPUT_DIM:=784
-HIDDEN_DIM:=128
-OUTPUT_DIM:=10
+RANDOM_SEED:={{cookiecutter.random_seed}}
+NUM_EPOCHS:={{cookiecutter.num_epochs}}
+INPUT_DIM:={{cookiecutter.input_dim}}
+HIDDEN_DIM:={{cookiecutter.hidden_dim}}
+OUTPUT_DIM:={{cookiecutter.output_dim}}
 
 .DEFAULT: help
 help:

@@ -1,8 +1,9 @@
 {
-	"full_name": "Leroy Jenkins",
-	"email": "leroy@jenkins.com",
-	"project_name": "MNIST PyTorch",
 	"app_name": "my-ml-app",
-	"project_short_description": "MNIST in PyTorch",
-	"version": "0.1.0"
+	"version": "0.1.0",
+	"random_seed": "42",
+	"num_epochs": "15",
+	"input_dim": "784",
+	"hidden_dim": "128",
+	"output_dim": "10"
 }
